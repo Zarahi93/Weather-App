@@ -36,7 +36,14 @@
     </div>
     <script>
         const apiKey = "cffa46867516c50a41180b3be1fc2e6f";
-        const apiURL = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
+        const apiURL = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=london";
+        
+        async function checkWeather(){
+const response = await fetch(apiURL + `&appid=${apiKey}`);
+var data = await response.json();
+console.log(data);
+        }
+        checkWeather();
     </script>
 </body>
 </html>
