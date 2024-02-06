@@ -23,6 +23,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;   
+    flex-wrap: wrap;
 }
 
 .search input{
@@ -69,6 +70,7 @@ body{
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 .col{
     display: flex;
