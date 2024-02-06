@@ -1,4 +1,4 @@
-This is a [Weather App](https://zarahi93.github.io/Weather-App/) for a Website made with HTML CSS and JavaScript. 
+This is a [Weather App](https://zarahi93.github.io/Weather-App/) for a Website made with HTML, CSS and JavaScript. 
 
 It gets the current weather data from Fess API fey from OpenWeatherMap and display the weather information like Temperature,  Weather condition, Humidity and Wind Speed according to the city name entered on the search boxon our website or app.
 
